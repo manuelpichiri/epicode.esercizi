@@ -1,0 +1,69 @@
+#titolo1{
+   font-weight: 700;
+   
+
+}
+#foto{
+    width: 300px;
+    align-items: center;
+}
+.paragrafo1{
+    
+    color: #ddd;
+    text-align: center;
+}
+.paragrafo2{
+    color: #ddd;
+}
+
+.contatti{
+   color: #ddd;
+   font-weight: 800;
+}
+#Hobby{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    color:#ddd ;
+}
+h2{
+    color: #ddd;
+}
+h4{
+    font-weight: 700;
+    font-size: x-large;
+}
+h1{
+    text-align: center;
+    color: #ddd;
+}
+body{
+    background:linear-gradient(300deg,#121212,purple);
+}
+.link{
+    color: #ddd;
+}
+.span{
+    color: #ddd;
+}
+.esperienze{
+ padding-top: 2%;
+}
+.tabella{
+    color: #ddd;
+    margin: auto;
+    border: #ddd;
+    width: 50%;
+    height: 100px;
+
+}
+th,td{
+    border: 1px solid #ddd
+}
+.interessi{
+    font-size: large;
+}
+.hobby2{
+    font-size: large;
+}
