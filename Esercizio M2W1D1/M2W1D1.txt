@@ -1,0 +1,17 @@
+Cos'è un algoritmo?
+
+Un'algoritmo è un'insieme di operazioni mirate alla risoluzione di un problema.
+
+
+Cos'è una variabile?
+
+Una variabile è un dato che può variare durante l'esecuzione di un programma.
+
+
+Undefined e null sono la stessa cosa?
+
+undefined =   viene attribuito a una variabile che non ha ancora associato un tipo e un valore.
+
+null= indica una variabile che non ha nessun valore.
+
+quindi "undefined" e "null" non sono la stessa cosa.
