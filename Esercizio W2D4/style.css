@@ -1,0 +1,427 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+    ;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 3rem;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+}
+
+.title {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+
+
+.logo-medium-navbar {
+    width: 15%;
+    position: absolute;
+    left: 8.5%;
+
+}
+
+.items {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.nav-icons {
+    display: flex;
+    gap: 20px;
+    padding-right: 10px;
+}
+
+.nav-resume {
+    border: 1px solid grey;
+    border-radius: 20px;
+    height: 30px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.avatar {
+    background-color: orange;
+    width: 40px;
+    height: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+main {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.left-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    width: 70%;
+    padding: 20px;
+    gap: 20px;
+
+}
+
+.right-content {
+    width: 30%;
+    margin-top: 80px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tags {
+    display: flex;
+    gap: 20px;
+    border-bottom: 1px solid #cccc;
+    padding-bottom: .8rem;
+}
+
+.tags p:nth-child(2) {
+    font-weight: 900;
+}
+
+.card {
+    width: 100%;
+    display: flex;
+    padding: 20px;
+
+
+}
+
+.card-left {
+    width: 60%;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.card-right {
+    width: 40%;
+
+}
+
+.logo-account {
+    padding: 10px 0 10px 10px;
+}
+
+.img-account {
+    border-radius: 5px;
+}
+
+.account-name span {
+
+    color: gray;
+}
+
+.account-information {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    padding-left: 10px;
+
+}
+
+.card-footer-left {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-left: 20px;
+
+}
+
+.card-footer-left p {
+    font-size: small;
+    color: grey;
+    padding: 10px 0 10px 0px;
+}
+
+.title-container {
+    width: 80%;
+}
+
+.title-container h2 {
+    margin-left: 20px;
+}
+
+.paragraph-container {
+    width: 80%;
+}
+
+.paragraph-container p {
+    color: grey;
+    padding-left: 20px;
+}
+
+.card-footer-right {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.container-paragraph-2 {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-content {
+    border-left: 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.social-container {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo-medium,
+.logo-twitter {
+    width: 40px;
+    height: 30px;
+}
+
+.title-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    text-align: center;
+}
+
+.twitter-connection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 60px;
+    border: 1px solid grey;
+    width: 250px;
+}
+
+.twitter-social-logo,
+.logo-twitter {
+    margin: 5px;
+}
+
+.twitter-social-logo {
+    padding-right: 10px;
+}
+
+.link-container a {
+    color: grey;
+    padding-top: 10px;
+}
+
+.container-right-mid {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid;
+    padding-top: 50px;
+    width: 80%;
+}
+
+.container-tags {
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+
+.tag {
+    width: 30%;
+    height: 40px;
+    border-radius: 60px;
+    border: none;
+    background-color: rgba(211, 211, 211, 0.342);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+.tag h5 {
+    font-size: medium;
+    font-weight: 800;
+    text-align: center;
+    padding: 10px;
+
+
+}
+
+.follow {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.title-follow {
+    width: 100%;
+    display: flex;
+    padding: 10px;
+
+
+
+}
+
+.accoutn-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.card-follow {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0 10px 10px;
+}
+
+.container-follow {
+    display: flex;
+
+}
+
+
+.name-account-follow {
+    padding-left: 20px;
+
+}
+
+.name-account-follow p {
+
+
+    padding-top: 5px;
+}
+
+.follow-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 40px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+.title-right-side-container {
+    padding-left: 10px;
+}
+
+.card-right-side {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.card-right-right {
+    padding-top: 20px;
+}
+
+.comment {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.account-comment {
+    display: flex;
+    padding-left: 10px;
+
+}
+
+.picture-profile {
+    margin-top: 10px;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+.account-name-comment {
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.comment-write {
+    display: flex;
+    padding: 5px 0 5px 10px;
+}
+
+.comment-time-hour {
+    padding: 10px 0 5px 10px;
+    color: gray;
+}
+
+.comment-link {
+    padding: 10px 0 0 10px;
+
+}
+
+.comment-link a {
+    color: rgb(5, 151, 90);
+    text-decoration: none;
+    font-size: large;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 40px 0px 30px 10px;
+}
+
+.footer-information {
+    width: 15%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-information h6 {
+    color: grey;
+    font-weight: 600;
+    font-size: medium;
+
+}
