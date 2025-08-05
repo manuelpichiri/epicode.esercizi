@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="button-div">
+        <button onclick="addNewClass()">Cambia colore Compra</button>
+        <button onclick="background()"> Cambia colore background </button>
+        <button onclick="addClass()"> Rimuovi immagini </button>
+        <button onclick="changeColor()"> Cambia colore del prezzo </button>
+
+
+    </div>
+
+
+    <h1>L'Emporio Errante</h1>
+
+    <table class="table-product">
+        <tr>
+            <th class="column-table">
+                <h4 class="product-title">Autan</h4>
+                <img class="img-product" src="./assets/Autan.jpg">
+
+                <p class="product-description">Lo spray Autan Multi Insect consente un rapido e
+                    semplice spruzzo sul corpo grazie alla sua pompa utilizzabile. Lo spray Autan Multi
+                    Insect è una composizione chiara, rinfrescante e rinfrescante senza coloranti e
+                    conservanti. Il prodotto contiene il 20% di icaridina e protegge fino a 8 ore dalle
+                    zanzare, fino a 6 ore da zanzare tigre,
+                    fino a 5 ore dalle mosche e fino a 4 ore dalle zecche.</p>
+                <p class="product-price">7,75€</p>
+                <a class="link"
+                    href="https://www.amazon.it/Autan-antizanzare-Protection-Plus-Spray/dp/B004QM5TDG/ref=sr_1_13?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2IMTBI4O1G53C&dib=eyJ2IjoiMSJ9.7fMQeuMIQBIGvwatJl2iHkHW2IjxfSgLOhvGCTdjoxl1FC9SHl9sJxw-yWZePsn28godEELABVg-vr6OKQiF1T0cO54XEyoRyzh1fwBSCHash6GBwH8N6bEHxNwdIJqcrShAGfXGQZ9pyAojBVc-znSMliMfQnQ35_nng_2-bS-HqaTuONI339qv2St4j1eGMYLIjk86_uguHL8GR78j5AdtSIsjhzAzGsXJZKdOqSUSNDSMPKL7AnXOiWkMmdoRswy8MjmnBgqnGYIRqSRvdQkGmip4yR7PHhyK_uKmLKY.1d-xtDcx44E_FfwOYryDf9TNH7GqY5Fr3PXv-nDUFFg&dib_tag=se&keywords=autan&qid=1754061150&sprefix=autan%2Cspecialty-aps%2C94&sr=8-13">
+                    Compra</a>
+            </th>
+            <th class="column-table">
+                <h4 class="product-title"> Ultima Cibo per Gatti Adulti con Pollo, 440g</h4>
+                <img class="img-product" src="./assets/crocchette.jpg">
+
+                <p class="product-description">
+                    Ultima Adult è una ricetta adattata alle necessità nutrizionali del tuo gatto adulto, con cui lo
+                    aiuterai a mantenersi sano, con un pelo lucente e una pelle in salute. Con ingredienti di alta
+                    qualità per una digestione facile.
+
+                    Indicazioni
+                    Adulti, Salute della cute e del mantello
+
+                    Ingredienti
+                    Pollo (17%) mais integrale proteina di mais proteine disidratate di maiale frumento integrale (10%)
+                    proteine disidratate di pollame piselli disidratati (5%) grasso di origine animale farina di mais
+                    orzo integrale (4%) proteine animali idrolizzate proteina di soia sostanze minerali carota
+                    disidratata (0,5%, pari al 4% di carota fresca).</p>
+                <p class="product-price"> 1,99€</p>
+                <a class="link"
+                    href="https://www.amazon.it/Ultima-Cibo-Gatti-Adulti-Pollo/dp/B0C5X9LGLQ/ref=sr_1_7?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3FEJT0UPWM16W&dib=eyJ2IjoiMSJ9.nvKC1LTrf04A6aiu22DuDlilpVaLg2qblvp2UH6Jj1iIS5eFT741-PzmU_DA_-kSHLNATA3cJWGhVXAVMsy-wPAbBgGDyYM5-d1FChmPTyf0iB-AN-RktXXcNM2cLN1MT0HJ5JvlThhMeNglxeSO6vlzo9em0LlMY0l6JgXa7V_iP_SEXoEzArGYECVGsbBlzum2SCbUOe9dYxU_d8rOGFPQebaeQlIjUF3IBz67wEFpu_0qWQrf1hNhCGwqNSoyTKM4OmlJ8v1A6wtPb1WMs7ExcS8meNAxE9l3lupR9X0.otNUVRylzk1jLr4_OYJYZCWtBjo8wiitjOlhmvc7gFs&dib_tag=se&keywords=crocchette+gatto+ultima&qid=1754061208&sprefix=crocchette+gatto+ultima%2Caps%2C109&sr=8-7">
+                    Compra</a>
+            </th>
+            <th class="column-table">
+                <h4 class="product-title">Findigit Cuscino Cervicale in Memory Foam</h4>
+                <img class="img-product" src="./assets/Cuscino.jpg">
+
+                <p class="product-description">Supporta la testa e il collo per offrire una notte confortevole.
+                    IMPORTANTE: All'arrivo del tuo nuovo cuscino da letto,
+                    rimuovi l'imballaggio e attendi 24 - 48 ore affinché il cuscino riprenda la sua forma originale. Se
+                    il cuscino non può tornare alla sua forma originale,
+                    contatta direttamente il venditore.</p>
+                <p class="product-price">26,00€</p>
+                <a class="link"
+                    href="https://www.amazon.it/Findigit-Cervicale-Ergonomico-Guanciale-Rimovibile/dp/B09T36J6NP/ref=sr_1_61?crid=3UWA1K6DBWU1H&dib=eyJ2IjoiMSJ9.oGLctMNPpswcCs3rNYyznRZIj7x72xpIUPKHlW0HXZWg7HLVe30BFjDGyzA4FQ36tQol4X82XMdkmXUXdhuUkA828zASvy-2_jzksxCsIZr9J03eJBC8ux97sC00Lo56XU5JmLtrxg5SHDSvVdNcQXHR64vUqgjX9KJ6LISKfrVEiHgzBDLbP9M73p_5ci6kLzyAjNNz1AvkRmpGGwHyNxcfp0BAqcmr0BsYGG5tNaWEdEyfXOz620aLv8t4hs3WbjhiGv8oFj0HM_p-dX8fnjfkZMfXb7rcZATf5fxEnPg.fwbG9KBPEAng-tZw1qUigwPHzE1zBTHk2fnlvjzBxuQ&dib_tag=se&keywords=cuscino%2Bcervicale&qid=1754061250&sprefix=cuscino%2B%2Caps%2C110&sr=8-61&th=1">
+                    Compra</a>
+            </th>
+        </tr>
+        <tr>
+            <th class="column-table">
+                <h4 class="product-title">Mentadent - Dentifricio Prevenzione Completa</h4>
+                <img class="img-product" src="./assets/dentifricio.jpeg">
+
+                <p class="product-description"> Proteggere dalla carie
+                    Rafforzare le gengive
+                    Fornisce un effetto antiplacca fino a 18 ore
+                    Rafforza lo smalto
+                    Ripristinare il bianco naturale dei denti</p>
+                <p class="product-price"> 27,53€</p>
+                <a class="link"
+                    href="https://www.amazon.it/Mentadent-Dentifricio-Prevenzione-Completa-Convenienza/dp/B06Y4932CY/ref=sr_1_5?crid=1BMCY6W5AIUIW&dib=eyJ2IjoiMSJ9.JSiXy5pz12b7iXaM3dBjDUmT7PZbTJE-FMPlKAFle2zpG60JhVKx4ibB9U2TxUxQGXgesY3A6EBT-cAYxbZo03XTFqQ5PjQgP6-UaqjhCsbAsoUjz3gHvTX_wABI191UDgnOZaJEzaaFA9Yv0Eca_h4XewV6p2E_3l1oea7c76hQ7Dr71pvv0_TqBAYZIYVHswS0xWPWly0QsCh7GwDKoTMp_lGzDgxtArH5I22UMzUllEvfFYAXLWVSK9v3wY9DzF8rfAC6qEAIdD5E-ENJ6UP7Y-55JIgNxuxw5CyU77E.l1I1gL8EQhyN3KWb0Q7pf96Q3j6r8PLVX8GF0w2jA5Q&dib_tag=se&keywords=dentifricio+mentadent&qid=1754061308&sprefix=dentifricio+menta%2Caps%2C114&sr=8-5">
+                    Compra</a>
+            </th>
+            <th class="column-table">
+                <h4 class="product-title">MM Kaiju 8 nº 01 </h4>
+                <img class="img-product" src="./assets/mangaKaiju.jpg">
+
+                <p class="product-description"> Il Giappone ha il tasso più alto di attacchi di Kaiju al mondo. I Kaiju
+                    sconvolgono continuamente e senza pietà la vita quotidiana delle persone. Kafka Hibino,
+                    che ha sempre desiderato entrare nelle Forze di Difesa,
+                    attualmente lavora come pulitore di cadaveri di Kaiju.</p>
+                <p class="product-price">1,95€</p>
+                <a class="link"
+                    href="https://www.amazon.it/MM-Kaiju-n%C2%BA-01-95/dp/8411616177/ref=sr_1_15?crid=2X6GMSZX9BLV4&dib=eyJ2IjoiMSJ9.yjrThAuv8CKzqqzV4QO_B3uLtHwfBhsjKelyARa2cOh4yI-ck6MW8_rdV3OJQw1ARKojTjKH7UM5ZdYt2DI2eNBeZalY3CcXJDE3CuJTKw5h9ukj2DzVhntHnK_3S_JBugVAgCZEJSBzKBW3sXNQTa3s8D-k4O9bwQl0hqBaP5uPk1YGFJb3pQHY2eAA4S9eeaax0geqySVG8Ya58RGnwQbeG9zWafJVciw_UV9E7IEYdQzKyfxuRcsQfkQKQO0VzTwej4Ii8orPn1VtoNCS0u-4I5MkAA4vCDQHOt8wrDo.dkklbdedPNB6rJiX2Vlsx0kKd36OrhECfK1XTRcReW4&dib_tag=se&keywords=manga+kaiju+no.8&qid=1754061342&sprefix=manga+ka%2Caps%2C107&sr=8-15">
+                    Compra</a>
+            </th>
+        </tr>
+    </table>
+
+
+    <footer>
+        <h2>L'Emporio Errante</h2>
+        <p class="address" onmouseenter="footerAddressChange()">Indirizzo: Via Delle Palme 41</p>
+    </footer>
+    <form>
+        <h4>Scrivi la tua recensione </h4>
+        <textarea class="text" placeholder="Lascia un commento"> </textarea>
+
+    </form>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>

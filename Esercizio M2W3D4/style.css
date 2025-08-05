@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    background-color: #F5D7AF;
+}
+
+h1 {
+    text-align: center;
+}
+
+.table-product {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.column-table {
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(179, 50, 7, 0.803);
+    border-radius: 10%;
+
+}
+
+img {
+    max-width: 500px;
+    height: 300px;
+    border-radius: 10%;
+}
+
+.product-title {
+    padding: 1rem;
+    color: #E1E6E6;
+    font-size: x-large;
+    max-width: 300px;
+}
+
+.product-description {
+    margin: 1rem;
+    max-width: 300px;
+    height: 100px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #E1E6E6;
+    font-size: x-large;
+}
+
+.product-price {
+    color: #E1E6E6;
+    font-size: x-large;
+    margin-bottom: 1rem;
+    background-color: white;
+    border-radius: 20px;
+    width: 120px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px
+}
+
+footer,
+h2 {
+    background-color: #E1E6E6;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    max-width: 450px;
+    height: 100px;
+
+}
+
+form h4 {
+    padding: 1rem;
+    background-color: darkgray;
+    height: 50px;
+    width: 250px;
+    border-radius: 10px;
+    color: black;
+    font-size: medium;
+
+}
+
+.link {
+    border-radius: 20%;
+    font-size: larger;
+    background-color: white;
+    width: 100px;
+    height: 70px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.test-class {
+    color: rgb(255, 204, 2);
+    background-color: cornflowerblue;
+}
+
+.img-newClass {
+    max-width: 500px;
+    height: 300px;
+    border-radius: 10%;
+    opacity: 0;
+}
+
+.text {
+    width: 100%;
+    height: 100%;
+}
+
+.button-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
