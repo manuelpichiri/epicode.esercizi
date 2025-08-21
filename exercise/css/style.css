@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    gap: 1rem;
+}
+
+.search-container input {
+    padding: 1rem;
+    border-radius: 4px;
+    border: none;
+    border-bottom: 1px solid orange;
+    min-width: 500px;
+    outline: none;
+    font-size: 1.2rem;
+}
+
+
+
+.search-container button {
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    background-color: coral;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.card {
+
+    width: 300px;
+    background-color: rgb(65, 63, 63)
+}
+
+img {
+    width: 100%;
+}
+
+.cars-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}

@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+
+
+.propriety {
+    width: 550px;
+    margin: 20px;
+    background: linear-gradient(90deg, rgba(0, 152, 212, 1) 0%, rgba(87, 199, 133, 0.92) 44%, rgba(230, 250, 130, 0.68) 68%, rgba(233, 237, 109, 0.42) 95%);
+    border-radius: 20px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 550px;
+    margin: 20px;
+    height: 70px;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0.71) 0%, rgba(9, 9, 121, 0.9) 51%, rgba(0, 212, 255, 0.71) 100%);
+    border-radius: 20px;
+    gap: 20px;
+}
+
+.jobAndGeo-container {
+    display: flex;
+}
+
+#findJob,
+#findPosition {
+    height: 30px;
+    border-radius: 20px;
+}
+
+.search-container,
+button {
+
+    height: 30px;
+    border-radius: 20px;
+
+}
+
+body {
+
+    background-image: url(./assets/wp14907704.webp);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
