@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("./assets/bg.jpg");
+    margin: 0 auto;
+    width: 80%;
+    background-size: cover;
+    color: white;
+}
+
+#logo {
+    width: 150px;
+    padding-top: 30px;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: Outfit;
+    font-weight: lighter;
+    text-wrap: wrap;
+    padding-top: 40px;
+}
+
+span {
+    font-weight: bolder;
+}
+
+.instructions-section {
+    font-size: 16px;
+}
+
+h2 {
+    color: #900080
+}
+
+ul {
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+footer {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#checkbox {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+#checkbox:checked {
+    background-color: transparent;
+    /* no bg */
+    position: relative;
+}
+
+#checkbox:checked::after {
+    content: "✓";
+    /* custom checkmark */
+    position: absolute;
+    left: 2px;
+    top: -3px;
+    font-size: 18px;
+    color: greenyellow;
+}
+
+.inputfield {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+button {
+    background-color: #00ffff;
+    color: #0B153F;
+    border: none;
+    padding: 10px 40px;
+    font-size: 16px;
+
+}

@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("./assets/bg.jpg");
+    margin: 0 auto;
+}
+
+.titolo-a-capo {
+    display: block;
+    /* Questo è il comportamento predefinito per h1 */
+}
